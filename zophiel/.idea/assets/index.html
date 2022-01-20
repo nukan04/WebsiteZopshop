@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/logo(head).png">
+    <title>Welcome!</title>
+
+</head>
+<body>
+<header class="header">
+
+    <div class="container">
+        <div class="header_inner">
+            <div class="header_logo"> ZOPSHOP.KZ</div>
+
+            <nav class="nav">
+                <a class="nav_link" href="#About">About</a>
+                <a class="nav_link" href="#Portfolio">Portfolio</a>
+                <a class="nav_link" href="#Order">Order</a>
+                <a class="nav_link" href="#Contact">Contact us</a>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="intro">
+    <div class="container">
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+
+                <img src="images/slider1.jpg" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="images/slide2.jpg" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="images/slider3.jpg" style="width:100%">
+
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {
+                            slideIndex = 1
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        setTimeout(showSlides, 4000); // Change image every 2 seconds
+                    }
+                </script>
+
+            </div>
+        </div>
+    </div>
+</div>
+<section class="section_about" id="About">
+    <div class="container">
+        <div class="section_header">
+            <h3 class="section_subtitle">About us</h3>
+            <div>
+                <p class="section_text">Our company “ZopShop” started own history in 2015 when our director first time
+                    visited China and impressed by it colorfulness and a wide range of differents decorster staff. We
+                    opened our first shop in 2014 in Almaty, then another one in Astana. After 3 years we decided to
+                    focus only on one product and fully concentrate on it by giving to it all our ideas and enthusiasm.
+                    Therefore, our company visited one of the factors, which produce vases and create an agreement
+                    between us. SO, during one a half year we get the most wonderful vases in our country and sell it
+                    around all the world. Our mission is to give an ability to get a part of different cultures by
+                    selling different vases. We have principles which help us to keep our clients satisfied by our
+                    service, firstly, the opinion of client should be on the first place, if accidentally we don’t have
+                    the example which will be appropriate we can make it by order, but it will take more time. Secondly,
+                    there are no borders to your fantasy. we are open for crazy ideas and always ready for complicated
+                    orders. We promise after our vases you will never change your choice. </p>
+            </div>
+        </div>
+        <div class="about">
+            <div class="about_item">
+                <div class="about_image">
+                    <img src="images/about/about1.jpg" alt="">
+                </div>
+            </div>
+            <div class="about_item">
+                <div class="about_image">
+                    <img src="images/about/about2.jpg" alt="">
+                </div>
+            </div>
+            <div class="about_item">
+                <div class="about_image">
+                    <img src="images/about/about3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section_products" id="Portfolio">
+    <h3 class="text_products">Products</h3>
+    <div class="container1">
+        <img src="images/products/vase1.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div>
+                <a href="card1.html" class="text"> "Foshan"<br><strike>$55.00</strike> $35.00</a>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <img src="images/products/vase2.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Suzhou"<br><strike>$78.00</strike> $45.00</div>
+        </div>
+    </div>
+    <div class="container1">
+        <img src="images/products/vase3.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Melbourne"<br><strike>$89.00</strike> $56.00</div>
+        </div>
+    </div>
+</section>
+<section class="section_products1">
+    <div
+    class="container1">
+    <img src="images/products/vase4.jpg" alt="img" class="images">
+    <div class="overlay overlayleft">
+        <div
+                 class="text" > "Maputo"<br><strike>$70.00</strike> $66.00
+        </div>
+    </div>
+    </div>
+    <div class="container1">
+        <img src="images/products/vase5.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Johannesburg"<br><strike>$34.00</strike> $28.00</div>
+        </div>
+    </div>
+    <div class="container1">
+        <img src="images/products/vase6.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Luanda"<br><strike>$100.00</strike> $89.00</div>
+        </div>
+    </div>
+</section>
+<section class="section_products1">
+    <div class="container1">
+        <img src="images/products/vase7.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Jinan"<br><strike>$78.00</strike> $61.00
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <img src="images/products/vase8.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Casablanca"<br><strike>$54.00</strike> $43.00</div>
+        </div>
+    </div>
+    <div class="container1">
+        <img src="images/products/vase9.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Abu Dhabi"<br><strike>$47.00</strike> $40.00</div>
+        </div>
+    </div>
+</section>
+<section class="section_products1">
+    <div class="container1">
+        <img src="images/products/vase10.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Kiev"<br><strike>$43.00</strike> $32.00
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <img src="images/products/vase11.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Dakar"<br><strike>$76.00</strike> $65.00</div>
+        </div>
+    </div>
+
+    <div class="container1">
+        <img src="images/products/vase12.jpg" alt="img" class="images">
+        <div class="overlay overlayleft">
+            <div class="text">"Montreal"<br><strike>$65.00</strike> $53.00</div>
+        </div>
+    </div>
+</section>
+<section class="section_order" id="Order">
+    <h3 class="text_order">How to order</h3>
+    <img src="images/order1.jpg" class="order_image1">
+    <img src="images/order2.jpg" class="order_image2">
+</section>
+<div class="statistics">
+    <div class="container2">
+        <div class="stat">
+            <div class="stat_item">
+                <div class="icons"><img src="images/icons/delivery64.png"></div>
+                <div class="stat_text">FAST DELIVERY<br> Same day delivery as soon as possible</div>
+            </div>
+
+            <div class="stat_item">
+                <div class="icons"><img src="images/icons/sale48.png"></div>
+                <div class="stat_text">SPECIAL DISCOUNT<br> Get attractive offers day by day</div>
+            </div>
+
+            <div class="stat_item">
+                <div class="icons"><img src="images/icons/PixelKit.png"></div>
+                <div class="stat_text">SECURE CHECKOUT<br> Fully secured SSL checkout technology</div>
+            </div>
+
+            <div class="stat_item">
+                <div class="icons"><img src="images/icons/usd26.png"></div>
+                <div class="stat_text">MONEY RETURNS<br> 100% Money back guarntee</div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="contact_us" id="Contact">
+    <h3 class="text_contact">Contact us</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2265.048429264754!2d71.41736461752106!3d51.09035521540654!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585a605525605%3A0x4dff4a1973f7567e!2sAstana%20IT%20University!5e0!3m2!1sru!2skz!4v1642014562175!5m2!1sru!2skz"
+            width="600" height="400" frameborder="1" style="border:0;" allowfullscreen="" class="map"
+            align="right"></iframe>
+    <h3 class="inst">Instagram</h3>
+    <a href="https://instagram.com/" class="contact_link">@zopshop</a>
+    <h3 class="inst">Email</h3>
+    <a href="mailto:212295@astanait.edu.kz" class="contact_link">212295@astanait.edu.kz</a>
+    <h3 class="inst">WhatsApp</h3>
+    <a href="https://wa.me/<+71234567890>" class="contact_link">+71234567890</a>
+</section>
+</body>
+</html>
