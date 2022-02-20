@@ -4,12 +4,23 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/cardC.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!--    <script src="dinamo.js"></script>-->
     <link rel="shortcut icon" type="image/png" href="images/logo(head).png">
     <title>Card</title>
 </head>
+<body>
+<!---->
+<!--<img src ="images/products/vase1.jpg" alt = "Foshan" id="myImg" width="265">-->
+<!--<div id="myModal" class="modal">-->
+<!--    <span class="close" onclick="document.getElementById('myModal').style.display = 'none'">&times;</span>-->
+<!--    <img class="modal-content" id="img01">-->
+<!--    <div id="caption"></div>-->
+<!--</div>-->
+<!---->
+
+
     <header class="container-lg">
         <div class="container">
 
@@ -32,13 +43,18 @@
                 <br>
                 <div class="row">
 
-                    <div class="col-5"><img src="images/products/vase1.jpg" class="img" alt="pic" width="490">
+                    <div class="col-5"><img src="images/products/vase1.jpg" class="img" alt = "Foshan" id="myImg" width="400">
+                        <div id="myModal" class="modal">
+                            <span class="close" onclick="document.getElementById('myModal').style.display = 'none'">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                        </div>
                     </div>
 
                     <div class="col-7">
                         <div class="line">
                             <h1>Foshan </h1>
-                            <div class="row">
+                               <div class="row">
                                 <div class="col">
                                     <img src="images/icons/star.png" alt="img" class="star" width="10">
                                     <img src="images/icons/star.png" alt="img" class="star" width="10">
@@ -54,7 +70,7 @@
                                     <img src="images/icons/love.png" alt="img" class="sh" width="12">
                                     Add to Wish
                                     &emsp;&nbsp;
-                                    <img src=".idea/assets/images/icons/Share.png" alt="img" class="sh" width="12">
+                                    <img src="images/icons/share.png" alt="img" class="sh" width="12">
                                     To share
                                 </div>
                             </div>
@@ -62,7 +78,7 @@
 
                         <div class="row">
                             <div class="col-7">
-                                <div class="price">
+                                <div class="price" id="01">
                                     $34.99
                                 </div>
                                 <div class="price2">
@@ -76,8 +92,8 @@
                                 <br>Length---------------- 150
                                 <br>Material -------------- Ceramics
                                 <br><br><br>
-
-                                <a href="reg.html"> <button style="width:300px;height:40px" type="button" class="btn btn-primary"> Buy</button> </a>
+                                <button id="but111" style="width:300px; height:40px" type="button" class="btn btn-success"> Buy</button>
+<!--                                <a href="reg.html"> <button id="but111" style="width:300px; height:40px" type="button" class="btn btn-success"> Buy</button> </a>-->
                             </div>
                             <div class="col">
                             </div>
@@ -166,6 +182,6 @@
         </div>
         <br>
     </div>
-
-    </body>
+<script src="dinamo.js"></script>
+</body>
 </html>
